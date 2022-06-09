@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HW5-search</title>
+    <style>
+        body {
+            font-size: 20px;
+            padding: 5rem;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <section>
+        <h1>Поиск Авто</h1>
+        <form action="https://fom.in.ua/echo">
+            <p>
+                <label>
+                    <span>Тип кузова</span>
+                    <input type="text" name="car-type" required>
+                </label>
+            </p>
+            <p>
+                <label>
+                    <span>Страна Производитель</span>
+                    <input type="text" name="car-country">
+                </label>
+            </p>
+            <p>
+                <label>
+                    <span>Марка Авто</span>
+                    <input type="text" name="car-brand">
+                </label>
+            </p>
+            <p>
+                <label>
+                    <span>Год Выпуска</span>
+                    <input type="number" name="year" min="1995" max="2022">
+                </label>
+            </p>
+            <p>
+                <label>
+                    <span>Цена Авто (указана в тысячях $)</span>
+                    <input type="number" name="price" min="5" max="50">
+                </label>
+            </p>
+            <fieldset style="width: 500px; margin-left: auto; margin-right: auto;">
+                <legend>Состояние Авто</legend>
+                <p><label>
+                        <span>В кредите</span>
+                        <input type="checkbox" name="status 1">
+                    </label>
+                </p>
+                <p>
+                    <label>
+                        <span>Не на ходу</span>
+                        <input type="checkbox" name="status 2">
+                    </label>
+                </p>
+                <p>
+                    <label>
+                        <span>Требует расстаможки</span>
+                        <input type="checkbox" name="status 3">
+                    </label>
+                </p>
+            </fieldset>
+            <p>
+                <label>
+                    <span>Вид Топлива</span>
+                    <select name="Fuel">
+                        <option value="gas">Газ</option>
+                        <option value="petrol">Бензин</option>
+                        <option value="disel">Дизель</option>
+                    </select>
+                </label>
+            </p>
+            <p>
+                <span>Вид КПП</span>
+                <label>
+                    <input type="radio" name="Transmission" value="automat"> Автомат
+                </label>
+                <label>
+                    <input type="radio" name="Transmission" value="Mechanics"> Механика
+                </label>
+                <label>
+                    <input type="radio" name="Transmission" value="Variator"> Вариатор
+                </label>
+            </p>
+            <p>
+                <label>
+                    <span>Цвет Авто</span>
+                    <input type="color" name="color">
+                </label>
+            </p>
+            <fieldset style="width: 500px; margin-left: auto; margin-right: auto;">
+                <legend>Дополнительніе удобcтва</legend>
+                <p><label>
+                        <span>Кожаный салон</span>
+                        <input type="checkbox" name="salon-l">
+                    </label>
+                </p>
+                <p>
+                    <label>
+                        <span>Панорама</span>
+                        <input type="checkbox" name="Panorama">
+                    </label>
+                </p>
+                <p>
+                    <label>
+                        <span>Безключевой доступ</span>
+                        <input type="checkbox" name="key-none">
+                    </label>
+                </p>
+            </fieldset>
+            <p>
+                <button type="reset"> Очистить </button>
+                <button type="submit"> Поиск </button>
+            </p>
+        </form>
+    </section>
+</body>
+
+</html>

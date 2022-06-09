@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HW5</title>
+    <title>HW5-auth</title>
     <style>
         body {
             font-size: 20px;
@@ -17,25 +17,14 @@
 
 <body>
     <section>
-        <h1>Регистрация</h1>
+        <h1>Вход в Систему</h1>
         <fieldset style="width: 500px; margin-left: auto; margin-right: auto;">
+            <legend></legend>
             <form action="https://fom.in.ua/echo">
-                <p>
-                    <label>
-                        <span>Введите ваше имя</span>
-                        <input type="text" name="name" required>
-                    </label>
-                </p>
                 <p>
                     <label>
                         <span>Введите ваш e-mail</span>
                         <input type="email" name="email" required>
-                    </label>
-                </p>
-                <p>
-                    <label>
-                        <span>Ваш Телефон</span>
-                        <input type="tel" name="tel">
                     </label>
                 </p>
                 <p>
@@ -46,8 +35,8 @@
                 </p>
                 <p>
                     <label>
-                        <span>Подтвердите пароль</span>
-                        <input type="password" name="password-confirm" required>
+                        <span>Запомнить мой пароль</span>
+                        <input type="checkbox" name="paschek" required>
                     </label>
                 </p>
                 <p>
@@ -56,7 +45,6 @@
                 </p>
             </form>
         </fieldset>
-
     </section>
 </body>
 
