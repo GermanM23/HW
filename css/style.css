@@ -1,0 +1,36 @@
+.card {
+    width: 200px;
+    height: 400px;
+    margin: 50px;
+    padding: 30px;
+    border: 1px solid black;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    box-shadow: 10px 10px 20px 0 rgba(30,30,30,50%);
+    background-color: #FFD992;
+}
+img {
+    width: 100%;
+}
+.card-text {
+    color: #003947;
+}
+#putinPhoneBf {
+    color: #FF1D63;
+}
+h1 + p {
+    color: #238AFF;
+}
+h1 {
+    color: #FF7A0D;
+}
+ul > li  {
+    color: #CD34FF;
+}
+p[dir="ltr"] {
+    color: #FF0E00;
+}
+li ul li {
+    color: #FFFC00;
+}
