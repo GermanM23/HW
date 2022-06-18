@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+section {
+    background-color: #C4C4C4;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+.wrapper {
+    background-color: #E6E6E6;
+}
+.wrapper + .wrapper { 
+    margin-top: 3rem;
+}
+
+.container {
+    width: 100%;
+    max-width: 1100px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+.card {
+    width: 200px;
+    height: 200px;
+    background: #FC8F8F;
+    display: block;
+    justify-content: center;
+}
+.card-small {
+    width: 100px;
+    height: 100px;
+}
+.card-title {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 65px;
+    line-height: 74px;
+    text-align: center;
+    color: #FFFFFF; 
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 62px;
+    padding-bottom: 62px;
+}
+.card-title-small {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    color: #FFFFFF; 
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 31px;
+    padding-bottom: 31px;
+}
+.float-r {
+    float: right;
+}
+.float-l-1 {
+    float: left;
+}
+.float-l {
+    float: left;
+    margin-left: 30px;
+}
+.clearfix {
+    clear: both;
+}
