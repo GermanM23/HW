@@ -7,7 +7,6 @@ body {
     font-family: 'Bai Jamjuree', sans-serif;
     font-weight: 400;
     background-color: #F2F1EF;
-    overflow-x: hidden;
 }
 
 .flex {
@@ -133,8 +132,6 @@ a {
     position: relative;
     margin-top: 100px;
     transform: rotate(-4.93deg);
-    /* width: calc(100% + 4rem);
-    left: -1rem; */
     margin-bottom: 150px;
 }
 .rotate-navigation::before {
@@ -146,6 +143,7 @@ a {
     top: 0;
     right: 99%;
     background-color: #161513;
+    z-index: -1;
 
 }
 .rotate-navigation::after {
@@ -157,6 +155,7 @@ a {
     top: 0;
     left: 99%;
     background-color: #161513;
+    z-index: -1;
 }
 .rotate-navigation li img  {
     max-width: 20px;
@@ -510,4 +509,8 @@ footer {
 }
 .f-b-right svg:last-child {
     margin-left: 16px;
+}
+
+.sec-over {
+    overflow-x: hidden;
 }
