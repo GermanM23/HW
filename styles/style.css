@@ -1,0 +1,354 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #FFFFFF;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+}
+
+.flex {
+    display: flex;
+}
+.container {
+    width: 100%;
+    max-width: 1150px;
+    margin-left: auto;
+    margin-right: auto;
+    color: #1D2F38;
+}
+.gap-2 {
+    gap: 2rem;
+}
+a {
+    text-decoration: none;
+    color: #1D2F38;
+}
+h2,h3,h4,h5 {
+    font-family: 'Bitter', sans-serif;
+    font-weight: 400;
+}
+.justify-center{
+    justify-content: center;
+}
+.justify-between{
+    justify-content: space-between;
+}
+.justify-around {
+    justify-content: space-around;
+}
+.items-center {
+    align-items: center;
+}
+.btn {
+    text-align: center;
+    display: inline-block;
+}
+
+
+/* ================= */
+
+header {
+    background-color: #FFFFFF;
+    box-shadow: 0px 1px 8px rgba(83, 109, 122, 0.29);
+    padding: 22px 0;
+}
+.main-nav li{
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+.main-nav li img {
+    margin-right: 5px;
+}
+.signup {
+    gap: 1rem;
+}
+
+/* ================== */
+
+.b-c-section {
+    padding: 60px 0;
+}
+.big-card {
+    padding: 50px;
+    background: #E3EBF1;
+    border-radius: 10px;
+    gap: 50px;
+}
+.b-c-right h6 {
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    color: #10843F;
+    margin-bottom: 8px;
+}
+.b-c-right h3 {
+    font-weight: 400;
+    font-size: 47px;
+    line-height: 52px;
+    padding-bottom: 22px;
+}
+.b-c-right p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    color: #333333;
+    margin-bottom: 25px;
+}
+.span-bold {
+    font-weight: 700;
+}
+.b-c-btn {
+    background-color: #17A550;
+    color: #FFFFFF;
+    font-size: 15px;
+    line-height: 20px;
+    text-align: center;
+    border: 0px;
+    border-radius: 5px;
+    padding: 15px;
+} 
+
+/* ======================== */
+
+.cards-section {
+    padding-top: 20px;
+    padding-bottom: 100px;
+}
+.cards-head {
+    font-size: 38px;
+    line-height: 40px;
+    margin-bottom: 33px;
+}
+.cards {
+    margin-bottom: 75px;
+    gap: 40px;
+}
+.cards-left h4 {
+    font-size: 30px;
+    line-height: 35px;
+    margin-top: 10px;
+    margin-bottom: 12px;
+}
+.cards-left p {
+    font-size: 15px;
+    line-height: 20px;
+}
+.smal-card-r {
+    font-size: 18px;
+    line-height: 25px;
+    gap: 15px;
+}
+.smal-card-r:nth-child(2) {
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.cards-footer {
+    font-size: 16px;
+    line-height: 20px;
+    gap: 4px;
+}
+
+/* ================== */
+
+.last2-section {
+    padding-bottom: 100px;
+}
+.prod-head {
+    background-image: url(../images/prod-background.png);
+    border-radius: 10px;
+    padding: 30px;
+    margin-bottom: 100px;
+}
+.p-h-l h3 {
+    font-size: 28px;
+    line-height: 32px;
+    margin-left: 12px;
+}
+.prod-main {
+    padding-bottom: 40px;
+}
+.prod-main h3 {
+    font-size: 38px;
+    line-height: 40px;
+    margin-bottom: 33px;
+}
+.product-cards {
+    gap: 40px;
+}
+.p-c {
+    background-color: #F7F9FA;
+    border-radius: 10px;
+    padding-bottom: 40px;
+    position: relative;
+}
+.p-c h4 {
+    font-size: 30px;
+    line-height: 35px;
+    margin-top: 24px;
+    margin-bottom: 13px;
+    margin-left: 25px;
+}
+.p-c p  {
+    font-size: 15px;
+    line-height: 20px;
+    margin-left: 25px;
+    margin-right: 33px;
+}
+.abs-btn {
+    background: rgba(29, 47, 56, 0.8);
+    border-radius: 3px;
+    font-size: 12px;
+    line-height: 20px;
+    color: #FFFFFF;
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    padding: 5px 10px;
+    border: none;
+}
+
+
+/* ==================================== */
+
+.mail {
+    background: url(../images/mail-background.png) no-repeat center/cover;
+    padding: 50px;
+}
+.m-l-head {
+    gap: 20px;
+    margin-bottom: 30px;
+}
+.m-l-h-img {
+    background: #FFFFFF;
+    border-radius: 50%;
+    padding: 10px;
+    border: none;
+}
+.m-l-h-img img {
+    display: block;
+}
+.m-l-head h4 {
+    font-size: 30px;
+    line-height: 35px;
+}
+
+.mail-right p {
+    font-size: 18px;
+    line-height: 24px;
+    margin-right: 15px;
+    margin-bottom: 24px;
+}
+.mail-right input {
+    display: block;
+    width: 90%;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    margin-bottom: 30px;
+}
+.mail-right input:placeholder-shown {
+    font-size: 12px;
+    line-height: 20px;
+    color: #536D7A;
+}
+.btn-submit {
+    background: #FFC728;
+    border-radius: 5px;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 20px;
+    text-align: center;
+    color: #000000;
+    border: none;
+    padding: 15px 20px;
+}
+.mail-right a {
+    font-size: 12px;
+    line-height: 20px;
+    color: #536D7A;
+    margin-left: 10px;
+}
+
+/* ===================== */
+
+.footer-sec {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background-color:#F7F9FA;
+}
+.soc-med {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+.footer {
+    width: 100%;
+}
+.footer-center {
+    min-width: 30%;
+}
+.footer-left {
+    min-width: 30%;
+}
+.footer-right {
+    min-width: calc(40% - 4rem);
+}
+.footer-left p {
+    font-size: 16px;
+    line-height: 20px;
+}
+.footer-cards img {
+    max-width: 139px;
+    max-height: 100px;
+}
+.footer-header {
+    font-size: 30px;
+    line-height: 35px;
+    color: #333333;
+    margin-bottom: 12px;
+}
+.footer-cards {
+    margin-bottom: 20px;
+    gap: 9px;
+}
+.footer-cards p {
+    font-size: 16px;
+    line-height: 18px;
+}
+.btn-footer {
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 20px;
+    color: #FFFFFF;
+    background: #768F9C;
+    border-radius: 0px 5px 5px 0px;
+    border: none;
+    padding: 15px 20px;
+}
+.f-s {
+    margin-bottom: 20px;
+}
+.f-s input {
+    flex: 1;
+    border-radius: 5px 0px 0px 5px;
+    border: 1px solid #768F9C;
+}
+.footer-nav nav ul li {
+    font-size: 16px;
+    line-height: 20px;
+    list-style: none;
+    margin-bottom: 7px;
+}
+.footer-nav {
+    padding-bottom: 20px;
+    border-bottom: 1px solid #536D7A;
+}
+.footer-right p {
+    margin-top: 20px;
+}
