@@ -1,0 +1,219 @@
+@media (min-width: 760px) {
+    /* header */
+    .header-wrap {
+        display: block;
+    }
+    .adres-wrap {
+        display: flex;
+        align-items: center;
+    }
+    .adres-wrap p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #B3B3BA;
+    }
+    .container {
+        padding-left: 60px;
+        padding-right: 60px;
+    }
+    .container-slim {
+        padding-left: 60px;
+        padding-right: 60px;
+    }
+    span {
+        display: block;
+        background: #E6E6F0;
+        border-radius: 50%;
+        width: 6px;
+        height: 6px;
+        margin-left: 6px;
+        margin-right: 6px;
+    }
+    .header-top {
+        background-color: inherit;
+        justify-content: flex-start;
+        align-items: center;
+        padding-top: 50px;
+        padding-bottom: 30px;
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .phone {
+        display: flex;
+        align-items: center;
+    }
+    .facebook-header {
+        display: block;
+    }
+    .header-bottom {
+        padding: 0;
+    }
+    .header-bottom input {
+        display: none;
+    }
+    .menubox {
+        position: relative;
+        display: flex;
+        visibility: visible;
+        left: auto;
+        width: 100%;
+        background-color: inherit;
+        box-shadow: none;
+        padding: 0;
+    }
+    .menu-btn {
+        display: none;
+    }
+    .menu-item {
+        padding: 0;
+        margin-right: 15px;
+    }
+    .menu-item:hover {
+        background-color: inherit;
+        border-bottom: 2px solid #F0145A;
+    }
+    .header-logo {
+        padding: 0px 0px 30px 0px;
+    }
+    .header-logo img {
+        min-width: 264px;
+        min-height: 60px;
+    }
+    /* main */
+    .main-text {
+        padding: 60px 0 60px 0;
+    }
+    .main-text p {
+        font-size: 38px;
+        line-height: 46px;
+    }
+    .foto-card img {
+        max-width: 100%;
+        height: 400px;
+        object-fit: cover;
+        border-radius: 12px;
+    }
+    .card-screen{
+        flex-direction: row;
+        padding: 0px;
+        gap: 60px;
+    }
+    .staff-card {
+        padding: 0;
+        width: calc(50% - 30px);
+    }
+    /* footer */
+    .span-foot {
+        background-color:#B3B3BA;
+        ;
+    }
+    .adres-foot {
+        flex-direction: row;
+    }
+    .adres-foot p {
+        margin-bottom: 0;
+    }
+    .cotacts-foot {
+        flex-direction: row;
+    }
+    .footer {
+        padding-left: 130px;
+        padding-right: 130px;
+    }
+}
+@media (min-width: 1024px ) {
+    .container {
+        max-width: 904px;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 0;
+    }
+    .container-slim {
+        max-width: 664px;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 0;
+    }
+    .staff-card {
+        width: calc(32% - 30px);
+    }
+    
+    .header-wrap {
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        grid-template-rows: 1fr 1fr;
+        gap: 0.5rem;
+        padding-top: 50px;
+    }
+    .header-logo {
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 1;
+        grid-row-end: 3;
+        align-self: center;
+        padding: 0;
+    }
+    .header-top {
+        padding: 0;
+    }
+    .header-wrap > .header-top {
+        grid-row-start: 1;
+        grid-row-end: 2;
+        grid-column-start: 2;
+        grid-column-end: 3;
+        padding-bottom: 0;
+        justify-content: end;
+    }
+    .menubox {
+        justify-content: end;
+    }
+    .footer {
+        padding: 30px 0 30px 0;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        grid-gap: 15px;
+    }
+    .cotacts-foot {
+        grid-column-start: 1;
+        grid-column-end: 2;
+    }
+    .inf-foot {
+        grid-column-start: 2;
+        grid-column-end: 3;
+        grid-row-start: -3;
+        grid-row-end: -2;
+        text-align: end;
+    }
+}
+@media (min-width: 1435px) {
+    .container {
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 1320px;
+    }
+    .container-slim {
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 1080px;
+    }
+}
+@media (min-width: 1918px) {
+    .container {
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 1600px;
+    }
+    .container-slim {
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 1360px;
+    }
+    .foto-card {
+        height: 400px;
+    }
+    .foto-card img {
+        width: 100%;
+        height: 100%;
+    }
+}
